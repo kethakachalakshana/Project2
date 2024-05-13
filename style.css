@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif ;
+}
+.login-box{
+    width: 450px;
+    height: 550px;
+    background-color: rgb(33, 54, 66);
+    color: white;
+    left: 37%;
+    top: 20%;
+    position: absolute;
+}
+
+.user{
+    position: absolute;
+    top: 22%;
+    left: 46%;
+    height: 100px;
+          
+}
+.login-Here{
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 47%;
+    
+}
+.box-text{
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    color: white;
+    font-weight: 600;
+}
+
+.box-text input[type="text"] , input[type="password"]{
+    border: none;
+    font-size: 18px;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    height:20px;
+}
+
+.box-text input[type="submit"]{
+    background-color: rgb(237, 20, 78);
+    border: none;
+    font-size: 25px;
+    position: absolute;
+    left: 35%;
+
+}
+.box-text input[type="submit"]:hover{
+    cursor: pointer;
+    background: blue;
+    color: beige;
+}
+.box-text a{
+    font-size: 80%;
+    color: #7f8386;
+    position: absolute;
+    line-height: 300%;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

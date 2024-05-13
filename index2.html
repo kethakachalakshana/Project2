@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .login-header div img{
+            height: 100px;
+        }
+
+        body{
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .login-box{
+            background: #454545;
+            width: 50%;
+                            
+        }
+
+        .login-header{
+            background: #878787;
+        
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;  
+        }
+
+        .login-form form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            padding-top: 10px;
+            
+        }
+
+        .login-form form div{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .login-form form div label{
+            padding-bottom: 5px;
+        }
+
+        .login-form form div input{
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-box">
+
+        <div class="login-header">
+            <div>
+                <img src="images/user.webp" alt="logo">
+            </div>
+            <div>
+                <h2>Log in here</h2>
+            </div>
+        </div>
+
+        <div class="login-form">
+            <form action="index.hmtl" method="get">
+                <div> 
+                    <label for="username">Username</label>
+                    <input type="text">
+                </div>
+            
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password">
+                </div>
+
+                <div>
+                    <input type="submit">
+                </div>
+            </form>
+        </div>
+
+        <div class="login-forget">
+            <p><a href="#">Lost Your Password</a></p>
+           <p><a href="#">Don't Have An Account</a></p>
+        </div>
+
+    </div>
+</body>
+</html>
